@@ -19,3 +19,5 @@ application
 - For new applications, use the binary name. For ex. `blender`
 - For icons use `.svg` and store in `blender/icons`
 - For screenshots use `.jpg` and store in `blender/screenshots`
+
+Any screenshot should be taken at `1440x900px`. Use `xrandr -s 1440x900`.
