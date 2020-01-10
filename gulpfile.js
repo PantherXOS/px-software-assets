@@ -1,4 +1,5 @@
-var { gulp, series, src, dest } = require("gulp");
+var { gulp } = require("gulp");
+var { series, src, dest } = require("gulp");
 var imagemin = require("gulp-imagemin");
 
 var config = {
