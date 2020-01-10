@@ -12,7 +12,7 @@ var s3 = require("gulp-s3-upload")(config);
 // TODO: We should decide on either JPG or PNG
 function processImages() {
   return gulp
-    .src("src/*/screenshots/*.{jpg,png}")
+    .src("./src/*/screenshots/*.{jpg,png}")
     .pipe(
       imagemin([
         imagemin.jpegtran({ progressive: true }),
@@ -23,7 +23,7 @@ function processImages() {
 }
 
 function moveIcons() {
-  return src("src/*/icons/*.{svg,png}").pipe(dest("dist"));
+  return src("./src/*/icons/*.{svg,png}").pipe(dest("dist"));
 }
 
 function upload() {
