@@ -28,11 +28,11 @@ function moveIcons() {
 }
 
 function upload() {
-  return gulp.src("./dist").pipe(
+  return gulp.src("./dist/**").pipe(
     s3(
       {
         Bucket: "assets.software.pantherx.org",
-        ACR: "public-read"
+        ACL: "public-read"
       },
       {
         maxRetries: 5
