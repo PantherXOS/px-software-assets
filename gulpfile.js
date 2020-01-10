@@ -1,9 +1,12 @@
-var gulp = require("gulp");
+var { gulp, series, src, dest } = require("gulp");
 var imagemin = require("gulp-imagemin");
-var s3 = require("gulp-s3-upload")(config);
 
-const { series } = require("gulp");
-const { src, dest } = require("gulp");
+var config = {
+  accessKeyId: process.env.AWS_ACCESS_KEY_ID,
+  secretAccessKey: process.env.AWS_SECRET_ACCESS_KEY
+};
+
+var s3 = require("gulp-s3-upload")(config);
 
 function processImages() {
   return (

@@ -1,32 +1,19 @@
-image: franzos/ruby-node-gulp-java
-
-cache:
-  paths:
-    - vendor/
-
-before_script:
-  - bundle install --path vendor
+image: node:lts-alpine
 
 stages:
-  - build
-  - deploy
+  - upload
 
-build:
-  stage: build
+upload:
+  stage: upload
   script:
     - npm install
+    - export AWS_ACCESS_KEY_ID="$(echo "$AWS_ACCESS_KEY_ID")"
+    - export AWS_SECRET_ACCESS_KEY="$(echo "$AWS_SECRET_ACCESS_KEY")"
     - gulp
   artifacts:
     when: on_success
     paths:
       - dist
     expire_in: 1h
-
-deploy:
-  stage: deploy
-  script:
-    - export AWS_ACCESS_KEY_ID="$(echo "$AWS_ACCESS_KEY_ID")"
-    - export AWS_SECRET_ACCESS_KEY="$(echo "$AWS_SECRET_ACCESS_KEY")"
-    - bundle exec s3_website push
   only:
     - master
