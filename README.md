@@ -2,6 +2,8 @@
 
 Icons and screenshots for applications found in PX Software.
 
+`https://assets.software.pantherx.org/blender/icons/28399ab8-36e7-456c-85d1-4b11dcbce1e7.svg`
+
 ## Overview
 
 ```
