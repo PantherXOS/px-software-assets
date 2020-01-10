@@ -9,19 +9,17 @@ var config = {
 
 var s3 = require("gulp-s3-upload")(config);
 
+// TODO: We should decide on either JPG or PNG
 function processImages() {
-  return (
-    gulp
-      // TODO: We should decide on either JPG or PNG
-      .src("src/*/screenshots/*.{jpg,png}")
-      .pipe(
-        imagemin([
-          imagemin.jpegtran({ progressive: true }),
-          imagemin.optipng({ optimizationLevel: 5 })
-        ])
-      )
-      .pipe(gulp.dest("dist"))
-  );
+  return gulp
+    .src("src/*/screenshots/*.{jpg,png}")
+    .pipe(
+      imagemin([
+        imagemin.jpegtran({ progressive: true }),
+        imagemin.optipng({ optimizationLevel: 5 })
+      ])
+    )
+    .pipe(gulp.dest("dist"));
 }
 
 function moveIcons() {
