@@ -12,7 +12,8 @@ upload:
   script:
     - apk add --update --no-cache pkgconfig autoconf automake libtool nasm build-base zlib-dev libjpeg-turbo-dev zlib
     - npm install
-    - npm install gulp # more explicitly
+    - npm install -g gulp
+    - npm install gulp
     - export AWS_ACCESS_KEY_ID="$(echo "$AWS_ACCESS_KEY_ID")"
     - export AWS_SECRET_ACCESS_KEY="$(echo "$AWS_SECRET_ACCESS_KEY")"
     - gulp
