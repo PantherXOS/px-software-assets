@@ -44,5 +44,6 @@ deploy:
     - aws s3 cp "$PACKAGE_NAME" s3://source-git-pantherx-org/
   only:
     - tags
+    - master
   tags: [source]
 
