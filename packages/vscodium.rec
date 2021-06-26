@@ -1,9 +1,0 @@
-# -*- mode: rec -*-
-name: vscodium
-title: vscodium
-version: 1.55.2
-description: VSCodium is a community-driven, freely-licensed binary
-+ distribution of Microsoft’s editor VSCode.
-homepage: https://vscodium.com/
-license: Expat
-category: development

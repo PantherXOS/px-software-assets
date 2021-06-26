@@ -1,9 +1,0 @@
-# -*- mode: rec -*-
-name: vscode
-title: vscode
-version: 1.56.2
-description: Visual Studio Code is a code editor redefined and optimized for
-+ building and debugging modern web and cloud applications.
-homepage: https://code.visualstudio.com/
-license: Expat
-category: development
