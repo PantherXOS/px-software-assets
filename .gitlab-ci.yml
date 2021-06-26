@@ -43,13 +43,10 @@ deploy:
     - export META_FILE_NAME="$(echo $CI_PROJECT_NAME)_latest_meta.yaml"
     - tar -zcvf "$PACKAGE_NAME" "$CI_PROJECT_NAME"/packages/ "$CI_PROJECT_NAME"/category.rec
     - echo "datestamp:" $(date) > "$META_FILE_NAME"
-    - cat "$META_FILE_NAME"
     - echo "hash:" $(sha256sum $PACKAGE_NAME | cut -f1 -d " ") >> "$META_FILE_NAME"
-    - cat "$META_FILE_NAME"
     - aws s3 cp "$PACKAGE_NAME" s3://source-git-pantherx-org/
     - aws s3 cp "$META_FILE_NAME" s3://source-git-pantherx-org/
   only:
     - tags
-    - master
   tags: [source]
 
