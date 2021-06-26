@@ -1,0 +1,9 @@
+# -*- mode: rec -*-
+name: librecad
+title: librecad
+version: 2.2.0-rc2
+description: LibreCAD is a 2D Computer-aided design (CAD) application for
++ creating plans and designs.
+homepage: https://librecad.org/
+license: GPL 2
+category: development

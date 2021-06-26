@@ -1,0 +1,39 @@
+# -*- mode: rec -*-
+name: nheko
+title: nheko
+version: 0.8.2
+description: `Nheko' want to provide a native desktop app for the Matrix
++ protocol that feels more like a mainstream chat app and less like an IRC
++ client.
++ 
++ There is support for:
++ 
++    * E2E encryption (text messages only: attachments are currently sent
++      unencrypted).
++ 
++    * User registration.
++ 
++    * Creating, joining & leaving rooms.
++ 
++    * Sending & receiving invites.
++ 
++    * Sending & receiving files and emoji.
++ 
++    * Typing notifications.
++ 
++    * Username auto-completion.
++ 
++    * Message & mention notifications.
++ 
++    * Redacting messages.
++ 
++    * Read receipts.
++ 
++    * Basic communities support.
++ 
++    * Room switcher (<ctrl-K>).
++ 
++    * Light, Dark & System themes.
+homepage: https://github.com/Nheko-Reborn/nheko
+license: GPL 3+
+category: communication
