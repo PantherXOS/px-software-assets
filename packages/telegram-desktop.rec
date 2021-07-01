@@ -1,0 +1,9 @@
+# -*- mode: rec -*-
+name: telegram-desktop
+title: telegram-desktop
+version: 2.5.9
+description: Telegram desktop is the official desktop version of the Telegram
++ instant messenger.
+homepage: https://desktop.telegram.org/
+license: LGPL 2.1+, GPL 3+
+category: communication

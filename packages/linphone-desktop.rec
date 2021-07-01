@@ -1,0 +1,36 @@
+# -*- mode: rec -*-
+name: linphone-desktop
+title: linphone-desktop
+version: 4.2.5
+description: Linphone is a SIP softphone for voice and video over IP calling
++ (VoIP) and instant messaging.  Amongst its features are:
++ 
++    * High Definition (HD) audio and video calls
++ 
++    * Multiple call management (pause and resume)
++ 
++    * Call transfer
++ 
++    * Audio conferencing (merge calls into a conference call)
++ 
++    * Call recording and replay (audio only)
++ 
++    * Instant Messaging with message delivery status (IMDN)
++ 
++    * Picture and file sharing
++ 
++    * Echo cancellation
++ 
++    * Secure user authentication using TLS client certificates
++ 
++    * SRTP, zRTP and SRTP-DTLS voice and video encryption
++ 
++    * Telephone tone (DTMF) support using SIP INFO or RFC 4733
++ 
++    * Audio codecs: opus, speex, g711, g729, gsm, iLBC, g722, SILK, etc.
++ 
++    * Video codecs: VP8, H.264 and H.265 with resolutions up to 1080P, MPEG4
+homepage: https://linphone.org/technical-corner/linphone
+license: GPL 3+
+category: communication
+category: finance
