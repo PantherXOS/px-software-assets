@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: freecad
-title: freecad
+title: FreeCAD
 version: 0.19.2
 description: FreeCAD is a general purpose feature-based, parametric 3D modeler
 + for CAD, MCAD, CAx, CAE and PLM, aimed directly at mechanical engineering and

@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: gimp
-title: gimp
+title: GIMP
 version: 2.10.14
 description: GIMP is an application for image manipulation tasks such as photo
 + retouching, composition and authoring.  It supports all common image formats

@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: nheko
-title: nheko
+title: Nheko
 version: 0.8.2
 description: `Nheko' want to provide a native desktop app for the Matrix
 + protocol that feels more like a mainstream chat app and less like an IRC

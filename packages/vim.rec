@@ -1,7 +1,7 @@
 # -*- mode: rec -*-
 
 name: vim
-title: Text Editor Based On Vi
+title: Vim
 version: 8.1.0551
 description: Vim is a highly configurable text editor built to enable efficient
 + text editing. It is an improved version of the vi editor distributed with

@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: gnucash
-title: gnucash
+title: GnuCash
 version: 3.7
 description: GnuCash is personal and professional financial-accounting
 + software.  It can be used to track bank accounts, stocks, income and expenses,

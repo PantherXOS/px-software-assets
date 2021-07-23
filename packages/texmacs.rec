@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: texmacs
-title: texmacs
+title: TeXmacs
 version: 1.99.20
 description: GNU TeXmacs is a text editing platform which is specialized for
 + scientists.  It is ideal for editing structured documents with different types

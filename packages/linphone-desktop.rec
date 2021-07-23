@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: linphone-desktop
-title: linphone-desktop
+title: Linphone
 version: 4.2.5
 description: Linphone is a SIP softphone for voice and video over IP calling
 + (VoIP) and instant messaging.  Amongst its features are:

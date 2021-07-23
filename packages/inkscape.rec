@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: inkscape
-title: inkscape
+title: Inkscape
 version: 0.92.4
 description: Inkscape is a vector graphics editor.  What sets Inkscape apart
 + is its use of Scalable Vector Graphics (SVG), an XML-based W3C standard, as

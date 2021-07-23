@@ -1,7 +1,7 @@
 # -*- mode: rec -*-
 
 name: pidgin
-title: Graphical multi-protocol instant messaging client
+title: Pidgin
 version: 2.13.0
 description: Pidgin is a modular instant messaging client that supports many popular chat protocols.
 homepage: https://www.pidgin.im/

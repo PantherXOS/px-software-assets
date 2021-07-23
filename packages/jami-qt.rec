@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: jami-qt
-title: jami-qt
+title: Jami
 version: 20210326.1.cfba013
 description: This package provides the Jami Qt client.  Jami is a secure and
 + distributed voice, video and chat communication platform that requires no
