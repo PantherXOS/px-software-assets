@@ -1,0 +1,11 @@
+# -*- mode: rec -*-
+name: chessx
+title: ChessX
+version: 1.5.6
+description: ChessX is a chess database.  With ChessX you can operate on your
++ collection of chess games in many ways: browse, edit, add, organize, analyze,
++ etc.  You can also play games on FICS or against an engine.
+homepage: http://chessx.sourceforge.net/
+license: GPL 2+
+category: games
+icon: https://assets.software.pantherx.org/chessx/icons/704d0836-de50-4603-bfb7-aeb6542d06ca.png

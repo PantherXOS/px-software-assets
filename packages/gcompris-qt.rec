@@ -1,0 +1,24 @@
+# -*- mode: rec -*-
+name: gcompris-qt
+title: gcompris-qt
+version: 1.0
+description: Gcompris offers a large collection of educational games for small
++ children, designed to be a unified interface to integrate more educational
++ games.  Language-oriented games contain vocabulary, sounds, and voices for
++ many different languages.  Currently available boards include:
++ 
++   1. learning how to use a mouse and keyboard
++ 
++   2. learning simple arithmetic
++ 
++   3. learning how to read an analog clock
++ 
++   4. recognize letters after hearing their names
++ 
++   5. reading practice
++ 
++   6. small games (memory games, jigsaw puzzles, ...)
+homepage: https://gcompris.net/index-en.html
+license: SIL OFL 1.1, GPL 3+
+category: games
+icon: https://assets.software.pantherx.org/gcompris-qt/icons/e85e13f3-4eac-4bdf-84b9-89966ec65490.png
