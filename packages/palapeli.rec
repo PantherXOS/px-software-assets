@@ -1,0 +1,17 @@
+# -*- mode: rec -*-
+name: palapeli
+title: palapeli
+version: 20.12.0
+description: Palapeli is a jigsaw puzzle game.  Unlike other games in that
++ genre, you are not limited to aligning pieces on imaginary grids.  The pieces
++ are freely moveable.  Also, Palapeli features real persistency, i.e.
++ everything you do is saved on your disk immediately.
++ 
++ Palapeli is the Finnish word for jigsaw puzzle.
++ 
++ This package is part of the KDE games module.
+homepage: https://games.kde.org/
+license: GPL 2+
+category: games
+icon: https://assets.software.pantherx.org/palapeli/icons/c082ecf4-795e-4e2e-8448-9a8dd8090ab1.svg
+screenshot: https://assets.software.pantherx.org/palapeli/screenshots/

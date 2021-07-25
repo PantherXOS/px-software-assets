@@ -1,0 +1,13 @@
+# -*- mode: rec -*-
+name: kdiamond
+title: kdiamond
+version: 20.12.0
+description: KDiamond is a three-in-a-row game like Bejeweled.  It features
++ unlimited fun with randomly generated games and five difficulty levels with
++ varying number of diamond colors and board sizes.
++ 
++ This package is part of the KDE games module.
+homepage: https://games.kde.org/
+license: GPL 2+, FDL 1.2+
+category: games
+icon: https://assets.software.pantherx.org/kdiamond/icons/f2b86839-7fa1-4650-a60b-ff995632a436.png
