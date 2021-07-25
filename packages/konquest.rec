@@ -1,0 +1,15 @@
+# -*- mode: rec -*-
+name: konquest
+title: konquest
+version: 20.12.0
+description: Konquest is the KDE version of Gnu-Lactic Konquest.  Players
++ conquer other planets by sending ships to them.  The goal is to build an
++ interstellar empire and ultimately conquer all other player's planets.  The
++ game can be played with up to nine empires, commanded either by the computer
++ or by puny earthlings.
++ 
++ This package is part of the KDE games module.
+homepage: https://games.kde.org/
+license: GPL 2+, FDL 1.2+
+category: games
+icon: https://assets.software.pantherx.org/konquest/icons/8899ef20-5c73-4cc2-862b-cd7db9258b03.svg

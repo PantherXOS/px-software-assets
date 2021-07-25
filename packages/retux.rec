@@ -1,0 +1,11 @@
+# -*- mode: rec -*-
+name: retux
+title: retux
+version: 1.5
+description: ReTux is an action platformer loosely inspired by the Mario
++ games, utilizing the art assets from the `SuperTux' project.
+homepage: https://retux-game.github.io/
+license: CC0, CC-BY 3.0, CC-BY-SA 3.0, CC-BY-SA 4.0, GPL 2+, GPL 3+
+category: games
+icon: https://assets.software.pantherx.org/retux/icons/4cf73a00-5956-4a52-aba1-00d464fd78a4.png
+screenshot: https://assets.software.pantherx.org/retux/screenshots/

@@ -1,0 +1,15 @@
+git # -*- mode: rec -*-
+name: lskat
+title: lskat
+version: 20.12.0
+description: Lieutnant Skat (from German "Offiziersskat") is a fun and
++ engaging card game for two players, where the second player is either live
++ opponent, or a built in artificial intelligence.
++ 
++ Lieutnant Skat is a simplified variant of the Skat card game for two players.
++ 
++ This package is part of the KDE games module.
+homepage: https://games.kde.org/
+license: GPL 2+, LGPL 2.0+, FDL 1.2+
+category: games
+icon: https://assets.software.pantherx.org/lskat/icons/e4855d52-848d-441f-a051-adaabb4905bf.svg

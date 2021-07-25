@@ -1,0 +1,17 @@
+# -*- mode: rec -*-
+name: wesnoth
+title: wesnoth
+version: 1.14.17
+description: The Battle for Wesnoth is a fantasy, turn based tactical strategy
++ game, with several single player campaigns, and multiplayer games (both
++ networked and local).
++ 
++ Battle for control on a range of maps, using variety of units which have
++ advantages and disadvantages against different types of attacks.  Units gain
++ experience and advance levels, and are carried over from one scenario to the
++ next campaign.
+homepage: https://www.wesnoth.org/
+license: GPL 2+
+category: games
+icon: https://assets.software.pantherx.org/wesnoth/icons/877d1b40-884c-4507-9059-5c042026020d.svg
+screenshot: https://assets.software.pantherx.org/wesnoth/screenshots/

@@ -1,0 +1,11 @@
+# -*- mode: rec -*-
+name: supertux
+title: supertux
+version: 0.6.2
+description: SuperTux is a classic 2D jump'n run sidescroller game in a style
++ similar to the original Super Mario games.
+homepage: https://supertux.org/
+license: GPL 3+
+category: games
+icon: https://assets.software.pantherx.org/supertux/icons/3ca1516d-5dc9-46ab-af37-837f71b08641.png
+screenshot: https://assets.software.pantherx.org/supertux/screenshots/

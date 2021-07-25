@@ -1,0 +1,13 @@
+# -*- mode: rec -*-
+name: steam
+title: steam
+version: 1.0.0.61
+description: Steam is a digital software distribution platform created by
++ Valve.  This package provides a script for launching Steam in a Guix container
++ which will use the directory `$HOME/.local/share/guix-sandbox-home' where all
++ games will be installed.
+homepage: https://store.steampowered.com
+license: Nonfree
+category: games
+icon: https://assets.software.pantherx.org/steam/icons/66cc1dc4-1038-458d-9dad-9c8dc68efed5.png
+screenshot: https://assets.software.pantherx.org/steam/screenshots/
