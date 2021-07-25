@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: gparted
-title: gparted
+title: GParted
 version: 1.0.0
 description: GParted is a GNOME partition editor for creating, reorganizing,
 + and deleting disk partitions.  It uses libparted from the parted project to

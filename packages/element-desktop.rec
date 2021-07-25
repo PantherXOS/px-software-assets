@@ -1,9 +1,11 @@
 # -*- mode: rec -*-
 name: element-desktop
-title: element-desktop
+title: element
 version: 1.7.9
 description: Signal Desktop is an Electron application that links with Signal
 + on Android or iOS..
 homepage: https://element.io/
 license: Expat
 category: communication
+icon: https://assets.software.pantherx.org/element/icons/17fd9906-5246-4a45-bf56-42b1d73cad04.png
+tag: latest
