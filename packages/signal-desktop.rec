@@ -1,9 +1,12 @@
 # -*- mode: rec -*-
 name: signal-desktop
-title: signal-desktop
+title: Signal
 version: 5.1.0
 description: Signal Desktop is an Electron application that links with Signal
 + on Android or iOS..
 homepage: https://signal.org/
 license: Expat
 category: communication
+icon: https://assets.software.pantherx.org/signal/icons/bbbb90c6-3d83-464f-a3fc-dd0f05afaebc.png
+tag: recommended
+tag: latest

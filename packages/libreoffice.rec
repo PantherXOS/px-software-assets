@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: libreoffice
-title: libreoffice
+title: LibreOffice
 version: 6.3.3.2
 description: LibreOffice is a comprehensive office suite.  It contains a
 + number of components: Writer, a word processor; Calc, a spreadsheet
@@ -13,3 +13,4 @@ category: finance
 category: education
 icon: https://assets.software.pantherx.org/libreoffice/icons/fb5d95a7-b58b-4b15-a9fd-8f7c49069663.svg
 screenshot: https://assets.software.pantherx.org/libreoffice/screenshots/aa5d9b94-37bb-4816-99ba-434df0fa88d7.jpg
+tag: latest

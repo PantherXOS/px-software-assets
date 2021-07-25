@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: qsyncthingtray
-title: qsyncthingtray
+title: QSyncthingTray
 version: 0.5.8
 description: A traybar application for syncthing.
 + 

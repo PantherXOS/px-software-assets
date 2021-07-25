@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: icecat
-title: icecat
+title: IceCat
 version: 68.3.0-guix0-preview1
 description: IceCat is the GNU version of the Firefox browser.  It is entirely
 + free software, which does not recommend non-free plugins and addons.  It also

@@ -21,3 +21,24 @@ application
 - For screenshots use `.jpg` and store in `blender/screenshots`
 
 Any screenshot should be taken at `1440x900px`. Use `xrandr -s 1440x900`.
+
+
+## Add Software to DB
+
+run as follow:
+```bash
+$ ./add_to_db.sh <package_name> <category>
+```
+
+Example:
+```bash
+$ ./add_to_db.sh telegram-desktop communication
+```
+
+* A `rec` file will be added in the `./packages/<package_name>.rec`.
+* Add the above `rec` file to repo and commit, finally create a tag.
+
+**Note:**
+ * The `icon` and `screenshot` fields won't be filled by above script and you should add and fill them manually.
+ * `Category` list: name: `development`, `finance`, `communication`, `education`, `entertainment`, `games`, `music`, `photography`, `utilities`, `browser`.
+ * You can Add new Category, for this the `category.rec` file should be updated.

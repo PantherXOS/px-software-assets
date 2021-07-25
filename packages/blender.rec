@@ -1,6 +1,6 @@
 # -*- mode: rec -*-
 name: blender
-title: blender
+title: Blender
 version: 2.79b
 description: Blender is a 3D graphics creation suite.  It supports the
 + entirety of the 3D pipeline—modeling, rigging, animation, simulation,
@@ -14,3 +14,4 @@ license: GPL 2+
 category: photography
 icon: https://assets.software.pantherx.org/blender/icons/28399ab8-36e7-456c-85d1-4b11dcbce1e7.svg
 screenshot: https://assets.software.pantherx.org/blender/screenshots/a499e65c-525b-40f3-9613-3cabe3d695a9.jpg
+tag: recommended
