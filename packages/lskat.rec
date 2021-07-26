@@ -1,4 +1,4 @@
-git # -*- mode: rec -*-
+# -*- mode: rec -*-
 name: lskat
 title: lskat
 version: 20.12.0
