@@ -48,6 +48,7 @@ deploy:
     - echo "datestamp:" $(echo $DATE_STAMP) >> "$META_FILE_NAME"
     - cat "$META_FILE_NAME"
     - export PACKAGE_NAME="$(echo $CI_PROJECT_NAME)_meta_$(echo $CI_COMMIT_TAG).tgz"
+    - ls -la
     - rm $(echo $CI_PROJECT_NAME)_meta_*.tgz
     - rm *-*-*_*.tgz
     - tar -zcvf "$PACKAGE_NAME" "$META_FILE_NAME"
