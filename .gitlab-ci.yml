@@ -55,7 +55,7 @@ deploy:
     - ls -la
     # remove old db archive files
     # - rm $(echo $CI_PROJECT_NAME)_meta_*.tgz
-    - [ -f *-*-*_*:*:*_*.tgz ] && rm *-*-*_*:*:*_*.tgz
+    - '[ -f *-*-*_*:*:*_*.tgz ] && rm *-*-*_*:*:*_*.tgz'
     # create meta file archive and add to s3
     - export PACKAGE_NAME="$(echo $CI_PROJECT_NAME)_meta_$(echo $CI_COMMIT_TAG).tgz"
     - tar -zcvf "$PACKAGE_NAME" "$META_FILE_NAME"
