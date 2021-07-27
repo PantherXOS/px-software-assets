@@ -45,7 +45,7 @@ deploy:
     - tar -zcvf "$DB_ARCHIVE_FILENAME_TEMP" "$CI_PROJECT_NAME"/packages/ "$CI_PROJECT_NAME"/category.rec
     # prepare hash and date
     - export DB_HASH="$(sha256sum $DB_ARCHIVE_FILENAME_TEMP | cut -f1 -d " ")"
-    - export DATE_STAMP="$(date +%d-%m-%Y_%H:%M:%S -u)"
+    - export DATE_STAMP="$(date +%d-%m-%Y_%H-%M-%S -u)"
     # create meta file and append the hash and date to it
     - export META_FILE_NAME="$(echo $CI_PROJECT_NAME)_latest_meta.yaml"
     - echo "hash:" $(echo $DB_HASH) > "$META_FILE_NAME"
@@ -55,13 +55,13 @@ deploy:
     - ls -la
     # remove old db archive files
     # - rm $(echo $CI_PROJECT_NAME)_meta_*.tgz
-    # - '[ -f *-*-*_*:*:*_*.tgz ] && rm *-*-*_*:*:*_*.tgz'
+    # - '[ -f *-*-*_*-*-*_*.tgz ] && rm *-*-*_*-*-*_*.tgz'
     # create meta file archive and add to s3
     - export PACKAGE_NAME="$(echo $CI_PROJECT_NAME)_meta_$(echo $CI_COMMIT_TAG).tgz"
     - tar -zcvf "$PACKAGE_NAME" "$META_FILE_NAME"
     - aws s3 cp "$PACKAGE_NAME" s3://assets.software.pantherx.org/
     # rename temporary db archive file to new filename and add to s3
-    #     new filename: [UTC_DATE]_{HASH}.tgz ex: 27-07-2021_07:40:50_b65cea03fbaa0ebbc84973f88671a7f238f6662b27351e70f280a43e41b6914f.tgz  
+    #     new filename: [UTC_DATE]_{HASH}.tgz ex: 27-07-2021_07-40-50_b65cea03fbaa0ebbc84973f88671a7f238f6662b27351e70f280a43e41b6914f.tgz  
     - export DB_ARCHIVE_FILENAME="$(echo $DATE_STAMP)_$(echo $DB_HASH).tgz"
     - mv "$DB_ARCHIVE_FILENAME_TEMP" "$DB_ARCHIVE_FILENAME"
     - aws s3 cp "$DB_ARCHIVE_FILENAME" s3://assets.software.pantherx.org/
