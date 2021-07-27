@@ -46,13 +46,13 @@ deploy:
     - export META_FILE_NAME="$(echo $CI_PROJECT_NAME)_latest_meta.yaml"
     - echo "hash:" $(echo $DB_HASH) > "$META_FILE_NAME"
     - echo "datestamp:" $(echo $DATE_STAMP) >> "$META_FILE_NAME"
+    - ls -la
+    - cat "$META_FILE_NAME"
     - export PACKAGE_NAME="$(echo $CI_PROJECT_NAME)_meta_$(echo $CI_COMMIT_TAG).tgz"
     - tar -zcvf "$PACKAGE_NAME" "$META_FILE_NAME"
     - aws s3 cp "$PACKAGE_NAME" s3://source-git-pantherx-org/
     - export DB_ARCHIVE_FILENAME="$(echo $DATE_STAMP)_$(echo $DB_HASH).tgz"
     - mv "$DB_ARCHIVE_FILENAME_TEMP" "$DB_ARCHIVE_FILENAME"
-    - ls -la
-    - cat "$META_FILE_NAME"
     - aws s3 cp "$DB_ARCHIVE_FILENAME" s3://assets.software.pantherx.org/
   only:
     - tags
