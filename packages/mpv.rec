@@ -1,0 +1,13 @@
+# -*- mode: rec -*-
+name: mpv
+title: mpv
+version: 0.33.1
+description: mpv is a general-purpose audio and video player.  It is a fork of
++ mplayer2 and MPlayer.  It shares some features with the former projects while
++ introducing many more.
+homepage: https://mpv.io/
+license: GPL 2+
+category: entertainment
+icon: https://assets.software.pantherx.org/mpv/icons/1f569649-64f3-4ac4-84a4-32fdb2c7f834.png
+screenshot: https://assets.software.pantherx.org/mpv/screenshots/
+tag: latest
