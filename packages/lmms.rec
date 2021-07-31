@@ -1,0 +1,13 @@
+# -*- mode: rec -*-
+name: lmms
+title: lmms
+version: 1.2.2
+description: LMMS is a digital audio workstation.  It includes tools for
++ sequencing melodies and beats and for mixing and arranging songs.  LMMS
++ includes instruments based on audio samples and various soft sythesizers.  It
++ can receive input from a MIDI keyboard.
+homepage: https://lmms.io/
+license: GPL 2+
+category: music
+icon: https://assets.software.pantherx.org/lmms/icons/
+screenshot: https://assets.software.pantherx.org/lmms/screenshots/bface171-745b-4beb-9e90-f60d8d80d4d3.png
