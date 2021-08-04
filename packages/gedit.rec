@@ -26,13 +26,7 @@ description: While aiming at simplicity and ease of use, gedit is a powerful gen
 + A flexible plugin system which can be used to dynamically add new advanced features
 homepage: https://wiki.gnome.org/Apps/Gedit
 license: GPL 2+
-icon: https://wiki.gnome.org/Apps/Gedit?action=AttachFile&do=get&target=gedit-logo.png
+icon: https://gitlab.gnome.org/GNOME/gedit/raw/master/data/icons/org.gnome.gedit.svg
 screenshot: https://wiki.gnome.org/Apps/Gedit/Screenshots?action=AttachFile&do=get&target=gedit-tabbed-view-screenshot-thumb.png
-screenshot: https://wiki.gnome.org/Apps/Gedit/Screenshots?action=AttachFile&do=get&target=screenshot-gedit-syntax-highlighting-thumb.png
-screenshot: https://wiki.gnome.org/Apps/Gedit/Screenshots?action=AttachFile&do=get&target=screenshot-gedit-utf8-support-thumb.png
-screenshot: https://wiki.gnome.org/Apps/Gedit/Screenshots?action=AttachFile&do=get&target=screenshot-gedit-word-completion-thumb.png
-screenshot: https://wiki.gnome.org/Apps/Gedit/Screenshots?action=AttachFile&do=get&target=screenshot-gedit-side-panel-file-browser-thumb.png
-screenshot: https://wiki.gnome.org/Apps/Gedit/Screenshots?action=AttachFile&do=get&target=screenshot-gedit-line-numbering-thumb.png
-screenshot: https://wiki.gnome.org/Apps/Gedit/Screenshots?action=AttachFile&do=get&target=screenshot-gedit-on-windows-8-thumb.png
 category: development
 category: education
