@@ -1,0 +1,13 @@
+# -*- mode: rec -*-
+name: simplescreenrecorder
+title: SimpleScreenRecorder
+version: 0.4.2
+description: SimpleScreenRecorder is an easy to use screen recorder with a
++ graphical user interface.  It supports recording the entire screen, or a part
++ of it, and allows encoding in many different codecs and file formats.  Other
++ features include a live preview and live streaming.
+homepage: https://www.maartenbaert.be/simplescreenrecorder/
+license: GPL 3+, Zlib, ISC, X11
+category: utilities
+icon: https://assets.software.pantherx.org/simplescreenrecorder/icons/fed63d98-21d1-44bd-a7df-7ef7cee3fd55.png
+screenshot: https://assets.software.pantherx.org/simplescreenrecorder/screenshots/ec1bf9d9-f04b-4da2-b9f6-08ce0acb10f8.png

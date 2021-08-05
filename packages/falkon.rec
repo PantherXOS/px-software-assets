@@ -1,0 +1,12 @@
+# -*- mode: rec -*-
+name: falkon
+title: Falkon
+version: 3.1.0-1.c725b5d
+description: Falkon is a KDE web browser using QtWebEngine rendering engine,
++ previously known as QupZilla.  It aims to be a lightweight web browser
++ available through all major platforms.
+homepage: https://falkon.org
+license: GPL 3
+category: browser
+icon: https://assets.software.pantherx.org/falkon/icons/cfe2de95-db59-4051-a9a1-d6cf129e71ad.svg
+screenshot: https://assets.software.pantherx.org/falkon/screenshots/1967a246-9eeb-4ece-a76b-b5c4f410fed6.png
