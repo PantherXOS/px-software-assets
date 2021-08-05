@@ -1,0 +1,11 @@
+# -*- mode: rec -*-
+name: ungoogled-chromium
+title: Ungoogled-Chromium
+version: 91.0.4472.114-0.a9eb6fd
+description: Ungoogled-Chromium is the Chromium web browser, with some
++ functionality disabled in order to protect the users privacy.
+homepage: https://github.com/Eloston/ungoogled-chromium
+license: Modified BSD, FreeBSD, Expat, ASL 2.0, MPL 1.1, MPL 2.0, Public Domain, ISC, non-copyleft, LGPL 2.1+
+category: browser
+icon: https://assets.software.pantherx.org/ungoogled-chromium/icons/37c9e67c-9982-4718-a57c-f3557630b6f1.png
+screenshot: https://assets.software.pantherx.org/ungoogled-chromium/screenshots/
