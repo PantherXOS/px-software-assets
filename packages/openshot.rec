@@ -1,0 +1,14 @@
+# -*- mode: rec -*-
+name: openshot
+title: OpenShot
+version: 2.5.1
+description: OpenShot takes your videos, photos, and music files and helps you
++ create the film you have always dreamed of.  Easily add sub-titles,
++ transitions, and effects and then export your film to many common formats.
+homepage: https://www.openshot.org/
+license: GPL 3+
+category: utilities
+category: music
+category: photography
+icon: https://assets.software.pantherx.org/openshot/icons/422ee501-6c3b-455e-aee8-d6e29765f7a2.svg
+screenshot: https://assets.software.pantherx.org/openshot/screenshots/0c3d29fb-3cb5-49d1-8856-3bf311042dbb.png

@@ -1,0 +1,20 @@
+# -*- mode: rec -*-
+name: scribus
+title: Scribus
+version: 1.5.7
+description: Scribus is a "desktop publishing" (DTP) application and can be
++ used for many tasks; from brochure design to newspapers, magazines,
++ newsletters and posters to technical documentation.  Scribus supports
++ professional DTP features, such as CMYK color and a color management system to
++ soft proof images for high quality color printing, flexible PDF creation
++ options, Encapsulated PostScript import/export and creation of four color
++ separations, import of EPS/PS and SVG as native vector graphics, Unicode text
++ including right to left scripts such as Arabic and Hebrew via FreeType.
+homepage: https://www.scribus.net
+license: GPL 2+
+category: photography
+category: productivity
+category: utilities
+icon: https://assets.software.pantherx.org/scribus/icons/2c05ca61-1693-4f71-98e1-0b8fae47fcaa.svg
+screenshot: https://assets.software.pantherx.org/scribus/screenshots/1e359eec-f5a3-4ba0-9279-470ca5c63fe5.png
+screenshot: https://assets.software.pantherx.org/scribus/screenshots/b75c3a94-3859-4814-a1b7-f714c49e6cc5.png

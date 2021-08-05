@@ -1,0 +1,12 @@
+# -*- mode: rec -*-
+name: qtox
+title: qTox
+version: 1.17.3
+description: qTox is a Tox client that follows the Tox design guidelines.  It
++ provides an easy to use application that allows you to connect with friends
++ and family without anyone else listening in.
+homepage: https://qtox.github.io/
+license: GPL 3+
+category: communication
+icon: https://assets.software.pantherx.org/qtox/icons/f01478bf-ab1c-4745-89ed-326890083487.png
+screenshot: https://assets.software.pantherx.org/qtox/screenshots/75594131-6f08-4b06-af0f-04f01bc28aec.png
