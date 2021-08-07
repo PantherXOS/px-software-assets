@@ -1,0 +1,14 @@
+# -*- mode: rec -*-
+name: firefox
+title: firefox
+version: 90.0.2
+description: Full-featured browser client built from Firefox source tree,
++ without the official icon and the name "firefox".
+homepage: https://mozilla.org/firefox/
+license: MPL 2.0
+category: browser
+icon: https://assets.software.pantherx.org/firefox/icons/ba2686a3-9348-446f-9921-3a217e5ce3ad.svg
+screenshot: https://assets.software.pantherx.org/firefox/screenshots/3b188489-b29a-4f10-8403-48bd9a7ee369.png
+screenshot: https://assets.software.pantherx.org/firefox/screenshots/754e60dd-16c3-4505-a8f2-79f900346ae0.jpg
+tag: latest
+tag: recommended

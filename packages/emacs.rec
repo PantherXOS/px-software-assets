@@ -14,9 +14,6 @@ description: GNU Emacs is an extensible and highly customizable text editor.
 homepage: https://www.gnu.org/software/emacs/
 license: GPL 3+
 icon: https://www.gnu.org/software/emacs/images/emacs.png
-screenshot: https://screenshots.debian.net/screenshots/000/016/203/large.png
-screenshot: https://screenshots.debian.net/screenshots/000/015/071/large.png
-screenshot: https://screenshots.debian.net/screenshots/000/016/182/large.png
 category: development
 category: education
 tag: latest

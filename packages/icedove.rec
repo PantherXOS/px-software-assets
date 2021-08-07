@@ -1,0 +1,13 @@
+# -*- mode: rec -*-
+name: icedove
+title: icedove
+version: 78.12.0
+description: This package provides an email client built based on Mozilla
++ Thunderbird.  It supports email, news feeds, chat, calendar and contacts.
+homepage: https://www.thunderbird.net
+license: MPL 2.0
+category: communication
+category: utilities
+icon: https://assets.software.pantherx.org/icedove/icons/f75bcdbd-93b5-442c-9db9-d16d48df5c3e.png
+tag: latest
+tag: recommended
