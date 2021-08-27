@@ -1,0 +1,15 @@
+# -*- mode: rec -*-
+name: obs
+title: obs
+version: 27.0.1
+description: Open Broadcaster Software provides a graphical interface for
++ video recording and live streaming.  OBS supports capturing audio and video
++ from many input sources such as webcams, X11 (for screencasting), PulseAudio,
++ and JACK.
+homepage: https://obsproject.com
+license: GPL 2+
+category: utilities
+icon: https://assets.software.pantherx.org/obs/icons/ccba62cd-7ebd-47c3-859b-6fc9f68145a9.png
+screenshot: https://assets.software.pantherx.org/obs/screenshots/2967889b-40b3-4f99-be13-e5a0e5cecb13.png
+tag: latest
+tag: recommended
